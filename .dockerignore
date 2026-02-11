@@ -1,0 +1,42 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+.venv/
+.env
+# =========================
+# Git
+# =========================
+.git/
+.gitignore
+
+# =========================
+# Jupyter / experiments
+# =========================
+*.ipynb
+.ipynb_checkpoints/
+
+# =========================
+# Data & training artifacts
+# =========================
+data/
+datasets/
+training/
+experiments/
+logs/
+mlruns/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
