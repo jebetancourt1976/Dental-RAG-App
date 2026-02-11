@@ -73,8 +73,8 @@ Answer clearly and precisely:
 """)
 
     ## Create the Dental QA chain
-    llm=ChatOpenAI(model_name="gpt-4o-mini",
-                temperature=0) #We want deterministic answers so Temperature=0
+    ##llm=ChatOpenAI(model_name="gpt-4o-mini",
+    ##            temperature=0) #We want deterministic answers so Temperature=0
     
     
     return (
