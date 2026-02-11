@@ -1,18 +1,16 @@
 -------------------Test locally with Docker------------------
 1. Start Docker Desktop
-2. Build the docker at the same route where your folder is located (sentiment-web-app)
+2. Build the docker on the same route where your folder is located (dental-rag-app)
 
 docker build -t dental-rag-app .
+
 3. Test locally with docker
 
 docker run -p 7860:7860 --env-file .env dental-rag-app
 
 4.Open:
-For Fast API
 
 http://localhost:7860
-
-
 
 
 5. If you need to remove the Docker:
